@@ -1,0 +1,5 @@
+#include "Pods-LEColorPicker.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/LEColorPicker" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Bolts" "${PODS_ROOT}/Headers/CocoaSoundCloudAPI" "${PODS_ROOT}/Headers/CocoaSoundCloudUI" "${PODS_ROOT}/Headers/CrashlyticsFramework" "${PODS_ROOT}/Headers/FXBlurView" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/Headers/HockeySDK" "${PODS_ROOT}/Headers/InAppSettingsKit" "${PODS_ROOT}/Headers/LEColorPicker" "${PODS_ROOT}/Headers/MSLabel" "${PODS_ROOT}/Headers/MagicalRecord" "${PODS_ROOT}/Headers/NXOAuth2Client" "${PODS_ROOT}/Headers/OHAttributedLabel" "${PODS_ROOT}/Headers/Parse" "${PODS_ROOT}/Headers/SWRevealViewController" "${PODS_ROOT}/Headers/TMCache" "${PODS_ROOT}/Headers/XCDYouTubeKit"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

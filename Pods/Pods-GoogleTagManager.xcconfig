@@ -1,0 +1,2 @@
+PODS_GOOGLETAGMANAGER_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/GoogleTagManager"
+PODS_GOOGLETAGMANAGER_OTHER_LDFLAGS = -ObjC -lGoogleAnalyticsServices -framework AdSupport -framework CFNetwork -framework CoreData -framework SystemConfiguration

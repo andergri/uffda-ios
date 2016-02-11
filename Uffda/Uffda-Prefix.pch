@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#define MR_ENABLE_ACTIVE_RECORD_LOGGING 0
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import "CoreData+MagicalRecord.h"
+    #import "UFFConstants.h"
+    #import "GAI.h"
+    #import "GAIFields.h"
+    #import "GAITracker.h"
+    #import "GAIDictionaryBuilder.h"
+
+#endif
